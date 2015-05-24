@@ -26,6 +26,7 @@ export TERM=xterm-256color # set terminal type
 cd ~/dpdk
 ./tools/setup.sh
 
+# input numbers by following order:
 (type 9 to re-compile DPDK)
 (type 12 to insert IGB UIO module)
 (type 15, then input "64" to setup hugepage mappings)
